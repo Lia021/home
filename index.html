@@ -56,6 +56,7 @@
            <a-asset-item id="house" src="https://rawgit.com/Lia021/home/master/house/house2.dae"></a-asset-item>
            <a-asset-item id="roof" src="https://rawgit.com/Lia021/home/master/house/roof.dae"></a-asset-item>
            <a-asset-item id="banchtable" src="https://rawgit.com/Lia021/home/master/bench/bench.dae"></a-asset-item>
+           <a-asset-item id="grill" src="https://rawgit.com/Lia021/home/master/grill/grill.dae"></a-asset-item>
            
             
             
@@ -84,6 +85,17 @@
             
         <a-entity position="-5 20 -35" scale="4 4 5"rotation="0 130 0"  collada-model="#banchtable"n-mesh-collider="type: environment; convex: false"></a-entity>
         
+        <!--grill-->
+            
+        <a-entity position="-10.60 20.60 -35" scale="2 2 2"rotation="0 40 0"  collada-model="#grill"n-mesh-collider="type: environment; convex: false"></a-entity>
+          
+        <!--steam-->
+
+        <a-entity n-object='res: effects/steam'position="-10.60 20.70 -35"></a-entity>
+  
+        <!--fire-->
+
+        <a-entity n-object='res: effects/fire'position="-10.60 21.10 -35"></a-entity>
 
        <!--inclser-->
        
