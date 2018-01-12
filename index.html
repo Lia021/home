@@ -60,7 +60,7 @@
            <a-asset-item id="guest" src="https://rawgit.com/Lia021/home/master/guesthead/guest.dae"></a-asset-item>
            <a-asset-item id="carlos" src="https://rawgit.com/Lia021/home/master/carlos/carlos3.dae"></a-asset-item>
            <a-asset-item id="meteaor" src="https://rawgit.com/Lia021/home/master/meteaor/meteaor.dae"></a-asset-item>
-           <a-asset-item id="rock" src="https://rawgit.com/Lia021/home/master/carlos/carlos3.dae"></a-asset-item>
+           <a-asset-item id="rock" src="https://rawgit.com/Lia021/home/master/rock/rock.dae"></a-asset-item>
            
             
             
@@ -79,8 +79,20 @@
        
         <!--meteaor-->
             
-        <a-entity position="0 0.07 -29.88" scale="33.57 33.80 33.71"rotation="0 -50 0"  collada-model="#meteaor"n-mesh-collider="type: environment; convex: false"></a-entity>
+        <a-entity position="0 0.072 -29.88" scale="33.56 33.80 33.71"rotation="0 -50 0"  collada-model="#meteaor"n-mesh-collider="type: environment; convex: false"></a-entity>
          
+        <!--rock-->
+            
+        <a-entity position="-3 0 8.50" scale="5 5 5"rotation="0 0 0"  collada-model="#rock"n-mesh-collider="type: environment; convex: false"></a-entity>
+          
+        <!--rock2-->
+            
+        <a-entity position="-1 0 10" scale="5 5 5"rotation="0 0 0"  collada-model="#rock"n-mesh-collider="type: environment; convex: false"></a-entity>
+          
+        <!--rock3-->
+            
+        <a-entity position="-2 0 12.30" scale="5 5 5"rotation="0 0 0"  collada-model="#rock"n-mesh-collider="type: environment; convex: false"></a-entity>
+        
 
         <!--house-->
             
@@ -114,6 +126,11 @@
         <!--fire-->
 
         <a-entity n-object='res: effects/fire'position="-10.60 21.10 -35"></a-entity>
+
+        <!-- Textured plane parallel to ground. -->
+       
+        <a-plane color="yellow" position="17 8 -3"side="double"height="50" width="4" rotation="-62.50 30 0"n-mesh-collider="type: environment; convex: false"></a-plane>
+  
 
        <!--inclser-->
        
